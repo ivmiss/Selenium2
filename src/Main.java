@@ -21,8 +21,6 @@ public class Main {
         WebElement locationBar = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"frm\"]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]")));
         locationBar.click();
 
-//        WebElement dateField = wait.until(ExpectedConditions.elementToBeClickable(By.));
-//        dateField.click();
         WebElement checkInPicker = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"frm\"]/div[1]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div[3]/div/div/div[1]/table/tbody/tr[3]/td[6]/span")));
         checkInPicker.click();
 
@@ -55,10 +53,7 @@ public class Main {
         
         WebElement childrenAgeBox = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"frm\"]/div[1]/div[3]/div[2]/div/div/div[4]/select[1]")));
         childrenAgeBox.click();
-       
-//        WebElement childrenAgeBox = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".sb_child_ages_empty_zero > option:nth-child(12)")));
-//        childrenAgeBox.click();
-//        
+           
         WebElement noChildrenAgePicker = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"frm\"]/div[1]/div[3]/div[2]/div/div/div[4]/select[1]/option[14]")));
         noChildrenAgePicker.click();
         
